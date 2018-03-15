@@ -1,0 +1,593 @@
+Website,URL,Color,Category,Percent
+ Ali Pay,https://www.alipay.com,#967A52,Financial,15%
+ Ali Pay,https://www.alipay.com,#826D4E,Financial,12%
+ Ali Pay,https://www.alipay.com,#755135,Financial,10%
+ Ali Pay,https://www.alipay.com,#8C7E68,Financial,9%
+ Ali Pay,https://www.alipay.com,#C29F70,Financial,8%
+ Ali Pay,https://www.alipay.com,#B3956A,Financial,7%
+ Ali Pay,https://www.alipay.com,#CAA97A,Financial,7%
+ Ali Pay,https://www.alipay.com,#4C372B,Financial,7%
+ Ali Pay,https://www.alipay.com,#D3AF77,Financial,7%
+ Ali Pay,https://www.alipay.com,#A6C4D4,Financial,6%
+ Ali Pay,https://www.alipay.com,#76ADC7,Financial,6%
+ Ali Pay,https://www.alipay.com,#AE8E5C,Financial,6%
+Apple,https://www.apple.com,#3E2E78,Shopping,16%
+Apple,https://www.apple.com,#67A354,Shopping,14%
+Apple,https://www.apple.com,#754F37,Shopping,10%
+Apple,https://www.apple.com,#D54C2B,Shopping,10%
+Apple,https://www.apple.com,#4A7430,Shopping,9%
+Apple,https://www.apple.com,#549BA1,Shopping,7%
+Apple,https://www.apple.com,#A06A4E,Shopping,6%
+Apple,https://www.apple.com,#54639A,Shopping,6%
+Apple,https://www.apple.com,#6597D5,Shopping,6%
+Apple,https://www.apple.com,#F35E55,Shopping,6%
+Apple,https://www.apple.com,#D09E52,Shopping,5%
+Apple,https://www.apple.com,#9D3F9E,Shopping,5%
+Baidu,http://www.baidu.com,#E20B0A,Shopping,19%
+Baidu,http://www.baidu.com,#EA231E,Shopping,12%
+Baidu,http://www.baidu.com,#F76033,Shopping,9%
+Baidu,http://www.baidu.com,#FAA244,Shopping,9%
+Baidu,http://www.baidu.com,#98534B,Shopping,8%
+Baidu,http://www.baidu.com,#45EDD0,Shopping,7%
+Baidu,http://www.baidu.com,#3056D3,Shopping,7%
+Baidu,http://www.baidu.com,#4D5B9E,Shopping,7%
+Baidu,http://www.baidu.com,#A4ADCE,Shopping,6%
+Baidu,http://www.baidu.com,#CC4927,Shopping,6%
+Baidu,http://www.baidu.com,#44A3CC,Shopping,5%
+Baidu,http://www.baidu.com,#F3ACA0,Shopping,5%
+Bank of America,https://www.bankofamerica.com,#C3122F,Financial,39%
+Bank of America,https://www.bankofamerica.com,#DC1531,Financial,23%
+Bank of America,https://www.bankofamerica.com,#E31834,Financial,9%
+Bank of America,https://www.bankofamerica.com,#2370CA,Financial,5%
+Bank of America,https://www.bankofamerica.com,#C81934,Financial,5%
+Bank of America,https://www.bankofamerica.com,#376ECD,Financial,5%
+Bank of America,https://www.bankofamerica.com,#E93348,Financial,3%
+Bank of America,https://www.bankofamerica.com,#2D6DAA,Financial,3%
+Bank of America,https://www.bankofamerica.com,#EDA2A7,Financial,2%
+Bank of America,https://www.bankofamerica.com,#7F919A,Financial,2%
+Bank of America,https://www.bankofamerica.com,#AC4749,Financial,2%
+Bank of America,https://www.bankofamerica.com,#6E99DB,Financial,2%
+Bing,http://www.bing.com,#6D331E,Search Engine,28%
+Bing,http://www.bing.com,#803726,Search Engine,19%
+Bing,http://www.bing.com,#8F3F2C,Search Engine,8%
+Bing,http://www.bing.com,#9E5131,Search Engine,8%
+Bing,http://www.bing.com,#5A4A41,Search Engine,7%
+Bing,http://www.bing.com,#914E31,Search Engine,5%
+Bing,http://www.bing.com,#964E3E,Search Engine,5%
+Bing,http://www.bing.com,#6F4C3B,Search Engine,4%
+Bing,http://www.bing.com,#804D35,Search Engine,4%
+Bing,http://www.bing.com,#B66E24,Search Engine,4%
+Bing,http://www.bing.com,#9E5A4E,Search Engine,4%
+Bing,http://www.bing.com,#AA5726,Search Engine,4%
+Blogger,http://www.blogspot.com,#4A8BF5,Social Media,30%
+Blogger,http://www.blogspot.com,#4C8FFB,Social Media,29%
+Blogger,http://www.blogspot.com,#4283EE,Social Media,25%
+Blogger,http://www.blogspot.com,#DA4033,Social Media,3%
+Blogger,http://www.blogspot.com,#80ACEB,Social Media,2%
+Blogger,http://www.blogspot.com,#CB3D39,Social Media,2%
+Blogger,http://www.blogspot.com,#3179F6,Social Media,2%
+Blogger,http://www.blogspot.com,#E4574C,Social Media,2%
+Blogger,http://www.blogspot.com,#1DA35E,Social Media,2%
+Blogger,http://www.blogspot.com,#EBA598,Social Media,1%
+Blogger,http://www.blogspot.com,#5D94F1,Social Media,1%
+Blogger,http://www.blogspot.com,#7CDDCF,Social Media,1%
+CHASE Bank,https://www.chase.com,#B7C5CD,Financial,61%
+CHASE Bank,https://www.chase.com,#116B9C,Financial,10%
+CHASE Bank,https://www.chase.com,#2D9AD7,Financial,6%
+CHASE Bank,https://www.chase.com,#1178B1,Financial,4%
+CHASE Bank,https://www.chase.com,#A1ADB2,Financial,4%
+CHASE Bank,https://www.chase.com,#0D7EC5,Financial,3%
+CHASE Bank,https://www.chase.com,#214170,Financial,3%
+CHASE Bank,https://www.chase.com,#204E99,Financial,2%
+CHASE Bank,https://www.chase.com,#59775B,Financial,2%
+CHASE Bank,https://www.chase.com,#599A3C,Financial,2%
+CHASE Bank,https://www.chase.com,#38AAE3,Financial,2%
+CHASE Bank,https://www.chase.com,#A4B6C2,Financial,1%
+Citigroup,http://www.citigroup.com/citi/,#AAC1CC,Financial,14%
+Citigroup,http://www.citigroup.com/citi/,#01B2E8,Financial,13%
+Citigroup,http://www.citigroup.com/citi/,#99B5C2,Financial,11%
+Citigroup,http://www.citigroup.com/citi/,#3A78B1,Financial,10%
+Citigroup,http://www.citigroup.com/citi/,#3F99D1,Financial,8%
+Citigroup,http://www.citigroup.com/citi/,#275380,Financial,8%
+Citigroup,http://www.citigroup.com/citi/,#94ACB6,Financial,8%
+Citigroup,http://www.citigroup.com/citi/,#24588F,Financial,7%
+Citigroup,http://www.citigroup.com/citi/,#A8B9C3,Financial,6%
+Citigroup,http://www.citigroup.com/citi/,#107CC4,Financial,6%
+Citigroup,http://www.citigroup.com/citi/,#3F6D99,Financial,5%
+Citigroup,http://www.citigroup.com/citi/,#18599D,Financial,4%
+Cool Math,http://www.coolmath.com,#FC1000,Games,13%
+Cool Math,http://www.coolmath.com,#AB01AC,Games,13%
+Cool Math,http://www.coolmath.com,#F2411D,Games,12%
+Cool Math,http://www.coolmath.com,#0541FD,Games,10%
+Cool Math,http://www.coolmath.com,#2FAA33,Games,8%
+Cool Math,http://www.coolmath.com,#4D5F59,Games,8%
+Cool Math,http://www.coolmath.com,#CE9F2A,Games,8%
+Cool Math,http://www.coolmath.com,#9B6407,Games,8%
+Cool Math,http://www.coolmath.com,#00D1F0,Games,8%
+Cool Math,http://www.coolmath.com,#14F311,Games,5%
+Cool Math,http://www.coolmath.com,#3378C6,Games,4%
+Cool Math,http://www.coolmath.com,#54A3FD,Games,3%
+Digg,http://digg.com,#523E33,Social Media,31%
+Digg,http://digg.com,#715242,Social Media,13%
+Digg,http://digg.com,#7E6958,Social Media,11%
+Digg,http://digg.com,#ACA29C,Social Media,9%
+Digg,http://digg.com,#977C6F,Social Media,8%
+Digg,http://digg.com,#A9907D,Social Media,7%
+Digg,http://digg.com,#92715A,Social Media,6%
+Digg,http://digg.com,#A6644E,Social Media,4%
+Digg,http://digg.com,#C9ADA2,Social Media,4%
+Digg,http://digg.com,#CC795B,Social Media,3%
+Digg,http://digg.com,#579BD8,Social Media,2%
+Digg,http://digg.com,#8BCBF3,Social Media,2%
+Diply,http://diply.com,#0084D5,News,99%
+Diply,http://diply.com,#97CCEE,News,1%
+Diply,http://diply.com,#76BDE8,News,0%
+Diply,http://diply.com,#68B6E6,News,0%
+Diply,http://diply.com,#56ADE3,News,0%
+Diply,http://diply.com,#349DDE,News,0%
+Diply,http://diply.com,#5DB1E4,News,0%
+Diply,http://diply.com,#49A7E1,News,0%
+Diply,http://diply.com,#138DD8,News,0%
+Diply,http://diply.com,#88C6EB,News,0%
+Diply,http://diply.com,#2797DB,News,0%
+Diply,http://diply.com,#1D92DA,News,0%
+Dropbox,https://www.dropbox.com,#258DDB,Service/Professional,40%
+Dropbox,https://www.dropbox.com,#339CE5,Service/Professional,24%
+Dropbox,https://www.dropbox.com,#2485D2,Service/Professional,11%
+Dropbox,https://www.dropbox.com,#298BD6,Service/Professional,11%
+Dropbox,https://www.dropbox.com,#2281CE,Service/Professional,3%
+Dropbox,https://www.dropbox.com,#35546E,Service/Professional,3%
+Dropbox,https://www.dropbox.com,#62B3EC,Service/Professional,2%
+Dropbox,https://www.dropbox.com,#3B6795,Service/Professional,2%
+Dropbox,https://www.dropbox.com,#A6B4C0,Service/Professional,1%
+Dropbox,https://www.dropbox.com,#94A9B9,Service/Professional,1%
+Dropbox,https://www.dropbox.com,#4F6A81,Service/Professional,1%
+Dropbox,https://www.dropbox.com,#1F75B3,Service/Professional,1%
+DuckDuckGo,https://duckduckgo.com,#2CC603,Search Engine,26%
+DuckDuckGo,https://duckduckgo.com,#019F00,Search Engine,21%
+DuckDuckGo,https://duckduckgo.com,#1CB600,Search Engine,15%
+DuckDuckGo,https://duckduckgo.com,#146ACD,Search Engine,12%
+DuckDuckGo,https://duckduckgo.com,#11AA00,Search Engine,12%
+DuckDuckGo,https://duckduckgo.com,#3880D4,Search Engine,3%
+DuckDuckGo,https://duckduckgo.com,#037E00,Search Engine,3%
+DuckDuckGo,https://duckduckgo.com,#6ED858,Search Engine,3%
+DuckDuckGo,https://duckduckgo.com,#5492DA,Search Engine,2%
+DuckDuckGo,https://duckduckgo.com,#258E19,Search Engine,1%
+DuckDuckGo,https://duckduckgo.com,#2675D0,Search Engine,1%
+DuckDuckGo,https://duckduckgo.com,#A0D498,Search Engine,1%
+ESPN,http://www.espn.com,#3D364D,Sports,26%
+ESPN,http://www.espn.com,#404878,Sports,15%
+ESPN,http://www.espn.com,#41528F,Sports,12%
+ESPN,http://www.espn.com,#DD614F,Sports,10%
+ESPN,http://www.espn.com,#516D92,Sports,8%
+ESPN,http://www.espn.com,#6F524C,Sports,6%
+ESPN,http://www.espn.com,#778194,Sports,5%
+ESPN,http://www.espn.com,#A1685B,Sports,4%
+ESPN,http://www.espn.com,#1B6BCD,Sports,4%
+ESPN,http://www.espn.com,#AEB5C2,Sports,4%
+ESPN,http://www.espn.com,#7E90A2,Sports,3%
+ESPN,http://www.espn.com,#5165AD,Sports,3%
+Etsy,https://www.etsy.com,#CDC0AA,Shopping,16%
+Etsy,https://www.etsy.com,#6D5E52,Shopping,14%
+Etsy,https://www.etsy.com,#ABA59B,Shopping,10%
+Etsy,https://www.etsy.com,#CE9F66,Shopping,9%
+Etsy,https://www.etsy.com,#9D7158,Shopping,9%
+Etsy,https://www.etsy.com,#C8B79C,Shopping,8%
+Etsy,https://www.etsy.com,#F06A5F,Shopping,8%
+Etsy,https://www.etsy.com,#A69278,Shopping,6%
+Etsy,https://www.etsy.com,#F29F94,Shopping,6%
+Etsy,https://www.etsy.com,#CD602C,Shopping,5%
+Etsy,https://www.etsy.com,#3E98B1,Shopping,5%
+Etsy,https://www.etsy.com,#CBB3A4,Shopping,4%
+FANDOM,http://www.wikia.com/fandom,#00D6D6,Database/Misc,34%
+FANDOM,http://www.wikia.com/fandom,#AEAEF9,Database/Misc,27%
+FANDOM,http://www.wikia.com/fandom,#2C2CF0,Database/Misc,11%
+FANDOM,http://www.wikia.com/fandom,#6B6BF5,Database/Misc,10%
+FANDOM,http://www.wikia.com/fandom,#7679F2,Database/Misc,6%
+FANDOM,http://www.wikia.com/fandom,#2323F0,Database/Misc,4%
+FANDOM,http://www.wikia.com/fandom,#4D4DF3,Database/Misc,3%
+FANDOM,http://www.wikia.com/fandom,#3234E5,Database/Misc,2%
+FANDOM,http://www.wikia.com/fandom,#10CBCC,Database/Misc,1%
+FANDOM,http://www.wikia.com/fandom,#00D6D6,Database/Misc,1%
+FANDOM,http://www.wikia.com/fandom,#8585CA,Database/Misc,1%
+FANDOM,http://www.wikia.com/fandom,#30DDDD,Database/Misc,0%
+Fox News,http://www.foxnews.com,#36546B,News,21%
+Fox News,http://www.foxnews.com,#A66150,News,11%
+Fox News,http://www.foxnews.com,#546C7D,News,10%
+Fox News,http://www.foxnews.com,#735143,News,8%
+Fox News,http://www.foxnews.com,#A4927C,News,8%
+Fox News,http://www.foxnews.com,#6F6D50,News,7%
+Fox News,http://www.foxnews.com,#7E909E,News,7%
+Fox News,http://www.foxnews.com,#6C808F,News,7%
+Fox News,http://www.foxnews.com,#C54237,News,6%
+Fox News,http://www.foxnews.com,#7B97D0,News,5%
+Fox News,http://www.foxnews.com,#5E7897,News,5%
+Fox News,http://www.foxnews.com,#CDAC9D,News,5%
+XVideos,http://www.xvideos.com,#53362A,Adult,19%
+XVideos,http://www.xvideos.com,#744E3D,Adult,14%
+XVideos,http://www.xvideos.com,#D84630,Adult,10%
+XVideos,http://www.xvideos.com,#C69578,Adult,8%
+XVideos,http://www.xvideos.com,#786B53,Adult,7%
+XVideos,http://www.xvideos.com,#987054,Adult,7%
+XVideos,http://www.xvideos.com,#AA9777,Adult,7%
+XVideos,http://www.xvideos.com,#CCAD98,Adult,6%
+XVideos,http://www.xvideos.com,#B07F6E,Adult,6%
+XVideos,http://www.xvideos.com,#525E6B,Adult,6%
+XVideos,http://www.xvideos.com,#935543,Adult,5%
+XVideos,http://www.xvideos.com,#AE7758,Adult,5%
+XNXX,http://www.xnxx.com,#3257E0,Adult,15%
+XNXX,http://www.xnxx.com,#754C3B,Adult,13%
+XNXX,http://www.xnxx.com,#533527,Adult,13%
+XNXX,http://www.xnxx.com,#CD9C74,Adult,9%
+XNXX,http://www.xnxx.com,#A59476,Adult,7%
+XNXX,http://www.xnxx.com,#7A6D54,Adult,7%
+XNXX,http://www.xnxx.com,#C97458,Adult,6%
+XNXX,http://www.xnxx.com,#977153,Adult,6%
+XNXX,http://www.xnxx.com,#95503B,Adult,6%
+XNXX,http://www.xnxx.com,#967D70,Adult,6%
+XNXX,http://www.xnxx.com,#B07C71,Adult,6%
+XNXX,http://www.xnxx.com,#CCAB9C,Adult,6%
+GitHub,https://github.com,#B7BEC9,Service/Professional,34%
+GitHub,https://github.com,#4183C4,Service/Professional,33%
+GitHub,https://github.com,#8492E7,Service/Professional,13%
+GitHub,https://github.com,#4082C3,Service/Professional,7%
+GitHub,https://github.com,#3030F1,Service/Professional,6%
+GitHub,https://github.com,#4A6AB1,Service/Professional,6%
+GitHub,https://github.com,#3F81C3,Service/Professional,1%
+GitHub,https://github.com,#C0BCB5,Service/Professional,0%
+GitHub,https://github.com,#B7BEC9,Service/Professional,34%
+GitHub,https://github.com,#4183C4,Service/Professional,33%
+GitHub,https://github.com,#8492E7,Service/Professional,13%
+GitHub,https://github.com,#4082C3,Service/Professional,7%
+GitHub,https://github.com,#3030F1,Service/Professional,6%
+GitHub,https://github.com,#4A6AB1,Service/Professional,6%
+GitHub,https://github.com,#3F81C3,Service/Professional,1%
+GitHub,https://github.com,#C0BCB5,Service/Professional,0%
+Google,https://www.google.com/?gws_rd=ssl,#4385F4,Search Engine,24%
+Google,https://www.google.com/?gws_rd=ssl,#186DED,Search Engine,16%
+Google,https://www.google.com/?gws_rd=ssl,#1166E7,Search Engine,10%
+Google,https://www.google.com/?gws_rd=ssl,#4483ED,Search Engine,10%
+Google,https://www.google.com/?gws_rd=ssl,#009A57,Search Engine,7%
+Google,https://www.google.com/?gws_rd=ssl,#4387FB,Search Engine,7%
+Google,https://www.google.com/?gws_rd=ssl,#D4402B,Search Engine,7%
+Google,https://www.google.com/?gws_rd=ssl,#FFB602,Search Engine,6%
+Google,https://www.google.com/?gws_rd=ssl,#DC4D3A,Search Engine,4%
+Google,https://www.google.com/?gws_rd=ssl,#D94C38,Search Engine,4%
+Google,https://www.google.com/?gws_rd=ssl,#FFC124,Search Engine,3%
+Google,https://www.google.com/?gws_rd=ssl,#669CF2,Search Engine,2%
+IMDb,http://www.imdb.com,#1E71B3,Database/Misc,14%
+IMDb,http://www.imdb.com,#733E2F,Database/Misc,13%
+IMDb,http://www.imdb.com,#756C56,Database/Misc,12%
+IMDb,http://www.imdb.com,#963C28,Database/Misc,9%
+IMDb,http://www.imdb.com,#A8802D,Database/Misc,8%
+IMDb,http://www.imdb.com,#47626C,Database/Misc,8%
+IMDb,http://www.imdb.com,#CB9E70,Database/Misc,7%
+IMDb,http://www.imdb.com,#A16957,Database/Misc,6%
+IMDb,http://www.imdb.com,#CD4632,Database/Misc,6%
+IMDb,http://www.imdb.com,#A8966E,Database/Misc,6%
+IMDb,http://www.imdb.com,#CDAE9F,Database/Misc,6%
+IMDb,http://www.imdb.com,#F13D1E,Database/Misc,5%
+Kongegrate,http://www.kongegrate.com,#3FAAD3,Games,86%
+Kongegrate,http://www.kongegrate.com,#4DA6C8,Games,5%
+Kongegrate,http://www.kongegrate.com,#657985,Games,5%
+Kongegrate,http://www.kongegrate.com,#465C69,Games,4%
+Morgan Stanley,http://www.morganstanley.com,#223E6D,Financial,29%
+Morgan Stanley,http://www.morganstanley.com,#324E6D,Financial,10%
+Morgan Stanley,http://www.morganstanley.com,#3B547F,Financial,9%
+Morgan Stanley,http://www.morganstanley.com,#457BAE,Financial,8%
+Morgan Stanley,http://www.morganstanley.com,#48719A,Financial,8%
+Morgan Stanley,http://www.morganstanley.com,#987D70,Financial,7%
+Morgan Stanley,http://www.morganstanley.com,#C79845,Financial,6%
+Morgan Stanley,http://www.morganstanley.com,#0652B6,Financial,6%
+Morgan Stanley,http://www.morganstanley.com,#69795B,Financial,5%
+Morgan Stanley,http://www.morganstanley.com,#0D559F,Financial,4%
+Morgan Stanley,http://www.morganstanley.com,#264C94,Financial,4%
+Morgan Stanley,http://www.morganstanley.com,#0457C0,Financial,4%
+MSN.com,http://www.msn.com,#473C3C,News,22%
+MSN.com,http://www.msn.com,#1D9AD8,News,20%
+MSN.com,http://www.msn.com,#74482B,News,13%
+MSN.com,http://www.msn.com,#40649F,News,7%
+MSN.com,http://www.msn.com,#3FA6F4,News,6%
+MSN.com,http://www.msn.com,#A47656,News,6%
+MSN.com,http://www.msn.com,#93562F,News,5%
+MSN.com,http://www.msn.com,#2C4375,News,5%
+MSN.com,http://www.msn.com,#D0996E,News,5%
+MSN.com,http://www.msn.com,#EA7529,News,4%
+MSN.com,http://www.msn.com,#EEA461,News,4%
+MSN.com,http://www.msn.com,#C77B56,News,3%
+MSN.com,http://www.msn.com,#473C3C,News,22%
+MSN.com,http://www.msn.com,#1D9AD8,News,20%
+MSN.com,http://www.msn.com,#74482B,News,13%
+MSN.com,http://www.msn.com,#40649F,News,7%
+MSN.com,http://www.msn.com,#3FA6F4,News,6%
+MSN.com,http://www.msn.com,#A47656,News,6%
+MSN.com,http://www.msn.com,#93562F,News,5%
+MSN.com,http://www.msn.com,#2C4375,News,5%
+MSN.com,http://www.msn.com,#D0996E,News,5%
+MSN.com,http://www.msn.com,#EA7529,News,4%
+MSN.com,http://www.msn.com,#EEA461,News,4%
+MSN.com,http://www.msn.com,#C77B56,News,3%
+Myspace,https://myspace.com,#6C3A26,Social Media,16%
+Myspace,https://myspace.com,#AF7155,Social Media,11%
+Myspace,https://myspace.com,#905139,Social Media,10%
+Myspace,https://myspace.com,#794634,Social Media,10%
+Myspace,https://myspace.com,#814D34,Social Media,9%
+Myspace,https://myspace.com,#9E583D,Social Media,8%
+Myspace,https://myspace.com,#AC5849,Social Media,8%
+Myspace,https://myspace.com,#CEAE9D,Social Media,6%
+Myspace,https://myspace.com,#9A7554,Social Media,6%
+Myspace,https://myspace.com,#C67C6C,Social Media,6%
+Myspace,https://myspace.com,#A17F6D,Social Media,5%
+Myspace,https://myspace.com,#D7967F,Social Media,5%
+NBA.com,http://www.nba.com,#523229,Sports,15%
+NBA.com,http://www.nba.com,#0768AE,Sports,14%
+NBA.com,http://www.nba.com,#095B9B,Sports,14%
+NBA.com,http://www.nba.com,#744436,Sports,11%
+NBA.com,http://www.nba.com,#A1775D,Sports,7%
+NBA.com,http://www.nba.com,#2F4677,Sports,7%
+NBA.com,http://www.nba.com,#776C56,Sports,7%
+NBA.com,http://www.nba.com,#963C28,Sports,6%
+NBA.com,http://www.nba.com,#B32315,Sports,5%
+NBA.com,http://www.nba.com,#596969,Sports,5%
+NBA.com,http://www.nba.com,#A99675,Sports,5%
+NBA.com,http://www.nba.com,#CB4F39,Sports,4%
+Netflix,http://www.netflix.com,#8383F6,Entertainment,61%
+Netflix,http://www.netflix.com,#3030F1,Entertainment,28%
+Netflix,http://www.netflix.com,#7A7AF5,Entertainment,10%
+Netflix,http://www.netflix.com,#C1BDB6,Entertainment,1%
+Netflix,http://www.netflix.com,#8383F6,Entertainment,61%
+Netflix,http://www.netflix.com,#3030F1,Entertainment,28%
+Netflix,http://www.netflix.com,#7A7AF5,Entertainment,10%
+Netflix,http://www.netflix.com,#C1BDB6,Entertainment,1%
+NTD Television - NTD...,http://www.ntd.tv,#1345BC,Entertainment,17%
+NTD Television - NTD...,http://www.ntd.tv,#5176B3,Entertainment,13%
+NTD Television - NTD...,http://www.ntd.tv,#584A34,Entertainment,11%
+NTD Television - NTD...,http://www.ntd.tv,#976D5E,Entertainment,9%
+NTD Television - NTD...,http://www.ntd.tv,#098DF3,Entertainment,9%
+NTD Television - NTD...,http://www.ntd.tv,#0371F3,Entertainment,8%
+NTD Television - NTD...,http://www.ntd.tv,#0851EF,Entertainment,8%
+NTD Television - NTD...,http://www.ntd.tv,#443F57,Entertainment,6%
+NTD Television - NTD...,http://www.ntd.tv,#A7916F,Entertainment,5%
+NTD Television - NTD...,http://www.ntd.tv,#CBA070,Entertainment,5%
+NTD Television - NTD...,http://www.ntd.tv,#BA5129,Entertainment,5%
+NTD Television - NTD...,http://www.ntd.tv,#D2AB98,Entertainment,4%
+Pinterest,https://www.pinterest.com,#354D81,Social Media,19%
+Pinterest,https://www.pinterest.com,#3D588F,Social Media,16%
+Pinterest,https://www.pinterest.com,#5573B6,Social Media,16%
+Pinterest,https://www.pinterest.com,#4E6BAB,Social Media,15%
+Pinterest,https://www.pinterest.com,#CA2025,Social Media,13%
+Pinterest,https://www.pinterest.com,#4C67A0,Social Media,6%
+Pinterest,https://www.pinterest.com,#486096,Social Media,4%
+Pinterest,https://www.pinterest.com,#445F9B,Social Media,4%
+Pinterest,https://www.pinterest.com,#2B3F6A,Social Media,3%
+Pinterest,https://www.pinterest.com,#C51E22,Social Media,2%
+Pinterest,https://www.pinterest.com,#D4464B,Social Media,1%
+Pinterest,https://www.pinterest.com,#6E87BF,Social Media,1%
+Pizza Hut,http://www.pizzahut.com,#C40200,Food,57%
+Pizza Hut,http://www.pizzahut.com,#CA1205,Food,6%
+Pizza Hut,http://www.pizzahut.com,#D41309,Food,6%
+Pizza Hut,http://www.pizzahut.com,#E72025,Food,6%
+Pizza Hut,http://www.pizzahut.com,#DC1F17,Food,5%
+Pizza Hut,http://www.pizzahut.com,#AB1406,Food,5%
+Pizza Hut,http://www.pizzahut.com,#B61606,Food,4%
+Pizza Hut,http://www.pizzahut.com,#D9B37A,Food,3%
+Pizza Hut,http://www.pizzahut.com,#3DA84D,Food,2%
+Pizza Hut,http://www.pizzahut.com,#CCA062,Food,2%
+Pizza Hut,http://www.pizzahut.com,#801E15,Food,2%
+Pizza Hut,http://www.pizzahut.com,#CE764E,Food,2%
+SoundCloud - Hear th...,https://soundcloud.com,#543823,Entertainment,23%
+SoundCloud - Hear th...,https://soundcloud.com,#6D5031,Entertainment,11%
+SoundCloud - Hear th...,https://soundcloud.com,#4E4C42,Entertainment,9%
+SoundCloud - Hear th...,https://soundcloud.com,#986F49,Entertainment,8%
+SoundCloud - Hear th...,https://soundcloud.com,#765036,Entertainment,8%
+SoundCloud - Hear th...,https://soundcloud.com,#AF7A4C,Entertainment,7%
+SoundCloud - Hear th...,https://soundcloud.com,#7A6C46,Entertainment,6%
+SoundCloud - Hear th...,https://soundcloud.com,#CCAE96,Entertainment,6%
+SoundCloud - Hear th...,https://soundcloud.com,#C39A75,Entertainment,6%
+SoundCloud - Hear th...,https://soundcloud.com,#AF936E,Entertainment,6%
+SoundCloud - Hear th...,https://soundcloud.com,#915B37,Entertainment,5%
+SoundCloud - Hear th...,https://soundcloud.com,#4D6596,Entertainment,5%
+Steam Store,http://store.steampowered.com,#28526F,Games,16%
+Steam Store,http://store.steampowered.com,#716E54,Games,10%
+Steam Store,http://store.steampowered.com,#365C7A,Games,10%
+Steam Store,http://store.steampowered.com,#71493A,Games,10%
+Steam Store,http://store.steampowered.com,#547431,Games,8%
+Steam Store,http://store.steampowered.com,#719D3B,Games,8%
+Steam Store,http://store.steampowered.com,#477493,Games,7%
+Steam Store,http://store.steampowered.com,#9F6246,Games,7%
+Steam Store,http://store.steampowered.com,#41687F,Games,7%
+Steam Store,http://store.steampowered.com,#CF5D2B,Games,6%
+Steam Store,http://store.steampowered.com,#F6A92D,Games,6%
+Steam Store,http://store.steampowered.com,#A49A6B,Games,5%
+TIME,http://time.com,#EC4B4B,News,18%
+TIME,http://time.com,#D3838C,News,13%
+TIME,http://time.com,#AB4D5C,News,12%
+TIME,http://time.com,#AEC0C8,News,10%
+TIME,http://time.com,#9A343D,News,8%
+TIME,http://time.com,#CF676B,News,8%
+TIME,http://time.com,#A1B1C5,News,7%
+TIME,http://time.com,#7A252A,News,6%
+TIME,http://time.com,#CAACA6,News,6%
+TIME,http://time.com,#AAC4D8,News,5%
+TIME,http://time.com,#7892D3,News,4%
+TIME,http://time.com,#5B576F,News,3%
+Tumblr,https://www.tumblr.com,#2C4762,Social Media,41%
+Tumblr,https://www.tumblr.com,#36506B,Social Media,20%
+Tumblr,https://www.tumblr.com,#72413D,Social Media,7%
+Tumblr,https://www.tumblr.com,#6AA0A2,Social Media,5%
+Tumblr,https://www.tumblr.com,#48A269,Social Media,4%
+Tumblr,https://www.tumblr.com,#9F6554,Social Media,4%
+Tumblr,https://www.tumblr.com,#A29D6E,Social Media,4%
+Tumblr,https://www.tumblr.com,#3F66A3,Social Media,3%
+Tumblr,https://www.tumblr.com,#347751,Social Media,3%
+Tumblr,https://www.tumblr.com,#5DFB90,Social Media,3%
+Tumblr,https://www.tumblr.com,#EE9C64,Social Media,3%
+Tumblr,https://www.tumblr.com,#CEA564,Social Media,3%
+Twitter,http://www.twitter.com,#503819,Social Media,21%
+Twitter,http://www.twitter.com,#6C5228,Social Media,18%
+Twitter,http://www.twitter.com,#9F8B5E,Social Media,9%
+Twitter,http://www.twitter.com,#A99468,Social Media,8%
+Twitter,http://www.twitter.com,#5F4925,Social Media,8%
+Twitter,http://www.twitter.com,#B1AB8C,Social Media,7%
+Twitter,http://www.twitter.com,#9B865A,Social Media,6%
+Twitter,http://www.twitter.com,#B0A786,Social Media,6%
+Twitter,http://www.twitter.com,#AE9B70,Social Media,6%
+Twitter,http://www.twitter.com,#A18E65,Social Media,5%
+Twitter,http://www.twitter.com,#755D39,Social Media,3%
+Twitter,http://www.twitter.com,#B0AD8F,Social Media,3%
+Vimeo,https://vimeo.com,#35474C,Entertainment,24%
+Vimeo,https://vimeo.com,#4E8BB0,Entertainment,20%
+Vimeo,https://vimeo.com,#55594E,Entertainment,9%
+Vimeo,https://vimeo.com,#456F77,Entertainment,7%
+Vimeo,https://vimeo.com,#4C7E9F,Entertainment,7%
+Vimeo,https://vimeo.com,#4F3B2D,Entertainment,6%
+Vimeo,https://vimeo.com,#55523D,Entertainment,6%
+Vimeo,https://vimeo.com,#527354,Entertainment,5%
+Vimeo,https://vimeo.com,#7A9A6D,Entertainment,4%
+Vimeo,https://vimeo.com,#435B6B,Entertainment,4%
+Vimeo,https://vimeo.com,#6FC5DB,Entertainment,4%
+Vimeo,https://vimeo.com,#9BA576,Entertainment,4%
+Weibo,http://us.weibo.com,#A62F58,Social Media,33%
+Weibo,http://us.weibo.com,#EC371F,Social Media,14%
+Weibo,http://us.weibo.com,#7FC1E5,Social Media,9%
+Weibo,http://us.weibo.com,#FD9FB2,Social Media,9%
+Weibo,http://us.weibo.com,#675A51,Social Media,8%
+Weibo,http://us.weibo.com,#1583CA,Social Media,6%
+Weibo,http://us.weibo.com,#D24841,Social Media,6%
+Weibo,http://us.weibo.com,#A79E6E,Social Media,3%
+Weibo,http://us.weibo.com,#4CA6E5,Social Media,3%
+Weibo,http://us.weibo.com,#CE9D70,Social Media,3%
+Weibo,http://us.weibo.com,#F19475,Social Media,3%
+Weibo,http://us.weibo.com,#CEAC9F,Social Media,3%
+Facebook,http://www.facebook.com,#3B5998,Social Media,81%
+Facebook,http://www.facebook.com,#5D9649,Social Media,5%
+Facebook,http://www.facebook.com,#66A853,Social Media,3%
+Facebook,http://www.facebook.com,#B5C1D6,Social Media,2%
+Facebook,http://www.facebook.com,#EBB94A,Social Media,2%
+Facebook,http://www.facebook.com,#9CAAC7,Social Media,1%
+Facebook,http://www.facebook.com,#9FADC9,Social Media,1%
+Facebook,http://www.facebook.com,#6078A7,Social Media,1%
+Facebook,http://www.facebook.com,#CC6F37,Social Media,1%
+Facebook,http://www.facebook.com,#7C90B3,Social Media,1%
+Facebook,http://www.facebook.com,#8396BE,Social Media,1%
+Facebook,http://www.facebook.com,#5B74A9,Social Media,1%
+Flickr,https://www.flickr.com,#06566C,Social Media,32%
+Flickr,https://www.flickr.com,#0C4C5C,Social Media,22%
+Flickr,https://www.flickr.com,#18697E,Social Media,15%
+Flickr,https://www.flickr.com,#075E7A,Social Media,11%
+Flickr,https://www.flickr.com,#256674,Social Media,5%
+Flickr,https://www.flickr.com,#4D7379,Social Media,3%
+Flickr,https://www.flickr.com,#547E82,Social Media,2%
+Flickr,https://www.flickr.com,#3D7D90,Social Media,2%
+Flickr,https://www.flickr.com,#598E9A,Social Media,2%
+Flickr,https://www.flickr.com,#247793,Social Media,2%
+Flickr,https://www.flickr.com,#719698,Social Media,2%
+Flickr,https://www.flickr.com,#52828F,Social Media,2%
+Tim Hortons,http://www.timhortons.com,#CD6F78,Food,97%
+Tim Hortons,http://www.timhortons.com,#AC1C2C,Food,3%
+Tim Hortons,http://www.timhortons.com,#BB4052,Food,0%
+Tim Hortons,http://www.timhortons.com,#AB1E2C,Food,0%
+Tim Hortons,http://www.timhortons.com,#AB1E2C,Food,0%
+Tim Hortons,http://www.timhortons.com,#AB1D2B,Food,0%
+Tim Hortons,http://www.timhortons.com,#AF2A3C,Food,0%
+Tim Hortons,http://www.timhortons.com,#AB1E2C,Food,0%
+Tim Hortons,http://www.timhortons.com,#AB1D2C,Food,0%
+Tim Hortons,http://www.timhortons.com,#A9192D,Food,0%
+Tim Hortons,http://www.timhortons.com,#C96E77,Food,0%
+Tim Hortons,http://www.timhortons.com,#D07A87,Food,0%
+VK,http://www.vk.com,#56789C,Social Media,35%
+VK,http://www.vk.com,#4F7094,Social Media,31%
+VK,http://www.vk.com,#6383A8,Social Media,22%
+VK,http://www.vk.com,#2F597D,Social Media,3%
+VK,http://www.vk.com,#7B96B0,Social Media,2%
+VK,http://www.vk.com,#A0B1C4,Social Media,1%
+VK,http://www.vk.com,#B3C4D1,Social Media,1%
+VK,http://www.vk.com,#D89574,Social Media,1%
+VK,http://www.vk.com,#A06E55,Social Media,1%
+VK,http://www.vk.com,#5A799A,Social Media,1%
+VK,http://www.vk.com,#A19F64,Social Media,1%
+VK,http://www.vk.com,#799D55,Social Media,1%
+Wells Fargo ,https://www.wellsfargo.com,#739609,Financial,48%
+Wells Fargo ,https://www.wellsfargo.com,#36689A,Financial,10%
+Wells Fargo ,https://www.wellsfargo.com,#AC4A3F,Financial,8%
+Wells Fargo ,https://www.wellsfargo.com,#745F43,Financial,5%
+Wells Fargo ,https://www.wellsfargo.com,#9DA060,Financial,5%
+Wells Fargo ,https://www.wellsfargo.com,#547EAB,Financial,5%
+Wells Fargo ,https://www.wellsfargo.com,#E88E71,Financial,4%
+Wells Fargo ,https://www.wellsfargo.com,#CA5443,Financial,4%
+Wells Fargo ,https://www.wellsfargo.com,#CCB09E,Financial,3%
+Wells Fargo ,https://www.wellsfargo.com,#9AB2CB,Financial,3%
+Wells Fargo ,https://www.wellsfargo.com,#7093C7,Financial,3%
+Wells Fargo ,https://www.wellsfargo.com,#6E92B4,Financial,2%
+Wells Fargo ,https://www.wellsfargo.com,#739609,Financial,48%
+Wells Fargo ,https://www.wellsfargo.com,#36689A,Financial,10%
+Wells Fargo ,https://www.wellsfargo.com,#AC4A3F,Financial,8%
+Wells Fargo ,https://www.wellsfargo.com,#745F43,Financial,5%
+Wells Fargo ,https://www.wellsfargo.com,#9DA060,Financial,5%
+Wells Fargo ,https://www.wellsfargo.com,#547EAB,Financial,5%
+Wells Fargo ,https://www.wellsfargo.com,#E88E71,Financial,4%
+Wells Fargo ,https://www.wellsfargo.com,#CA5443,Financial,4%
+Wells Fargo ,https://www.wellsfargo.com,#CCB09E,Financial,3%
+Wells Fargo ,https://www.wellsfargo.com,#9AB2CB,Financial,3%
+Wells Fargo ,https://www.wellsfargo.com,#7093C7,Financial,3%
+Wells Fargo ,https://www.wellsfargo.com,#6E92B4,Financial,2%
+WhatsApp,http://www.whatsapp.com,#304744,Social Media,54%
+WhatsApp,http://www.whatsapp.com,#354D4A,Social Media,14%
+WhatsApp,http://www.whatsapp.com,#51AE36,Social Media,12%
+WhatsApp,http://www.whatsapp.com,#65C83E,Social Media,7%
+WhatsApp,http://www.whatsapp.com,#557270,Social Media,5%
+WhatsApp,http://www.whatsapp.com,#52ACD8,Social Media,3%
+WhatsApp,http://www.whatsapp.com,#79999B,Social Media,2%
+WhatsApp,http://www.whatsapp.com,#DA9D85,Social Media,1%
+WhatsApp,http://www.whatsapp.com,#99DA89,Social Media,1%
+WhatsApp,http://www.whatsapp.com,#92D1EB,Social Media,1%
+WhatsApp,http://www.whatsapp.com,#95ADD7,Social Media,0%
+WhatsApp,http://www.whatsapp.com,#D2B0C6,Social Media,0%
+WordPress,https://wordpress.com,#1E8CBE,Service/Professional,83%
+WordPress,https://wordpress.com,#0073A5,Service/Professional,13%
+WordPress,https://wordpress.com,#005684,Service/Professional,2%
+WordPress,https://wordpress.com,#429EC8,Service/Professional,1%
+WordPress,https://wordpress.com,#006291,Service/Professional,1%
+WordPress,https://wordpress.com,#81BFDB,Service/Professional,0%
+WordPress,https://wordpress.com,#6FB5D5,Service/Professional,0%
+WordPress,https://wordpress.com,#55A8CE,Service/Professional,0%
+WordPress,https://wordpress.com,#5FADD0,Service/Professional,0%
+WordPress,https://wordpress.com,#90C5DD,Service/Professional,0%
+WordPress,https://wordpress.com,#6CB3D4,Service/Professional,0%
+WordPress,https://wordpress.com,#9BCCE2,Service/Professional,0%
+LinkedIn,https://www.linkedin.com,#513934,Service/Professional,21%
+LinkedIn,https://www.linkedin.com,#A4615C,Service/Professional,12%
+LinkedIn,https://www.linkedin.com,#734A3F,Service/Professional,9%
+LinkedIn,https://www.linkedin.com,#6A5F54,Service/Professional,8%
+LinkedIn,https://www.linkedin.com,#9B7253,Service/Professional,8%
+LinkedIn,https://www.linkedin.com,#D19E7A,Service/Professional,8%
+LinkedIn,https://www.linkedin.com,#A4A168,Service/Professional,6%
+LinkedIn,https://www.linkedin.com,#CFAF98,Service/Professional,6%
+LinkedIn,https://www.linkedin.com,#D16F6A,Service/Professional,6%
+LinkedIn,https://www.linkedin.com,#346AA9,Service/Professional,6%
+LinkedIn,https://www.linkedin.com,#086A9B,Service/Professional,5%
+LinkedIn,https://www.linkedin.com,#7C9A42,Service/Professional,5%
+Yahoo,http://www.yahoo.com,#3450E1,Search Engine,30%
+Yahoo,http://www.yahoo.com,#643EA0,Search Engine,25%
+Yahoo,http://www.yahoo.com,#A26E55,Search Engine,9%
+Yahoo,http://www.yahoo.com,#754938,Search Engine,6%
+Yahoo,http://www.yahoo.com,#353279,Search Engine,5%
+Yahoo,http://www.yahoo.com,#556FE8,Search Engine,4%
+Yahoo,http://www.yahoo.com,#697EEC,Search Engine,4%
+Yahoo,http://www.yahoo.com,#A2A8EF,Search Engine,4%
+Yahoo,http://www.yahoo.com,#CE9576,Search Engine,4%
+Yahoo,http://www.yahoo.com,#7793EF,Search Engine,3%
+Yahoo,http://www.yahoo.com,#AAA0A0,Search Engine,3%
+Yahoo,http://www.yahoo.com,#C57D5E,Search Engine,3%
+YouTube,https://www.youtube.com,#B4211C,Entertainment,17%
+YouTube,https://www.youtube.com,#763C2F,Entertainment,14%
+YouTube,https://www.youtube.com,#972A1E,Entertainment,13%
+YouTube,https://www.youtube.com,#CA4C34,Entertainment,9%
+YouTube,https://www.youtube.com,#4E91C8,Entertainment,8%
+YouTube,https://www.youtube.com,#786E4E,Entertainment,8%
+YouTube,https://www.youtube.com,#95744D,Entertainment,6%
+YouTube,https://www.youtube.com,#CDA366,Entertainment,5%
+YouTube,https://www.youtube.com,#556C65,Entertainment,5%
+YouTube,https://www.youtube.com,#365274,Entertainment,5%
+YouTube,https://www.youtube.com,#A27A6A,Entertainment,5%
+YouTube,https://www.youtube.com,#A5966E,Entertainment,5%

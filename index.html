@@ -1,0 +1,503 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Assignment 3 INFO 4310</title>
+  <meta name="description" content="Assignment 3 INFO 4310">
+  <meta name="author" content="Melissa Avila; Ben Stevens">
+  <meta content="en" http-equiv="Content-Language">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+
+  <!-- Raphael is no longer actively supported but will be used to create the hue distribution chart-->
+<!-- 
+* g.Raphael 0.51 - Charting library, based on Raphaël
+*
+* Copyright (c) 2009-2012 Dmitry Baranovskiy (http://g.raphaeljs.com)
+* Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.raphael-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/graphael/0.5.1/g.line-min.js"></script>
+
+<!-- Stylinng -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!--   Materialize-->  
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+ <link href="https://fonts.googleapis.com/css?family=Mina:400" rel="stylesheet"> 
+<style>
+form p{
+  display: inline-block;
+margin: 10px;
+}
+.holder{
+  width: 80%;
+margin: auto;
+text-align: center;
+}
+form{
+
+  color: white;
+}
+body{
+
+  background-color:  #293038;
+  color: white;
+  text-align: center;
+  font-family: 'Mina', sans-serif;
+}
+.chartWrapper{
+  padding: 2em;
+  margin: auto;
+}
+.web_name{
+
+  display: inline-block;
+  margin: 1em;
+}
+.hidden{
+  display: none;
+}
+#right_detail{
+  
+}
+#left_detail{
+  
+}
+
+</style>
+</head>
+
+<body>
+  <h1>Hue Distribution</h1>
+  <div class="holder">
+    <div></div>
+    <div>
+      <form id="category_form" action="#"> 
+       <br \> 
+     </form>
+     <a id="checkAll" class="waves-effect waves-light btn">Check All</a>
+     <a id="uncheckAll" class="waves-effect waves-light btn">Uncheck All</a>
+   </div>
+
+ </div>
+ <div id="distribution" class="chartWrapper"></div> 
+ <h4>Most Used Hues</h4>
+ <svg class="mostUsed" width="1000" height="200">></svg>
+  <div id="sites" class="chartWrapper"></div> 
+  <div id="site_detail" >
+    <div id="right_detail">
+    </div>
+    <div id="left_detail">
+    <div id="chartDiv" class="chartWrapper"></div> 
+    <svg class="hueClass" width="1000" height="200">></svg>
+   </div>
+    
+  </div>
+ <script type="text/javascript"> 
+
+//Code for hue distribution graph inspired by http://webcolourdata.com/
+$(document).ready(function(){
+$("#site_detail").hide();
+
+
+//function takes in an array and returns all the data aggregated by 
+function getHexAgg(dataMap){
+
+ return dataMap.map(function (d) { return d["Color"]; });
+
+}
+
+//Function that makes the histogram distribution chart and top hue cirlces
+//Takes in an array of HEX values
+
+function makeHistogram(arrHex, divID, svgID, widthSVG){
+if(arrHex.length == 0){
+  uncheckAll();
+}else{
+
+  var hexVal =  arrHex;
+  
+  var colours = [];
+  var count = 0;
+  var hslArr = new Map(); 
+  var scaleMin = 1; 
+  var scaleMax;
+  console.log(arrHex.length);
+  if(arrHex.length <= 2)
+    scaleMax = Math.ceil(arrHex.length*15) ; 
+  else if(arrHex.length < 5)
+    scaleMax = Math.ceil(arrHex.length*1.7) ; 
+  else if(arrHex.length < 40)
+    scaleMax = Math.ceil(arrHex.length*1.2) ; 
+  else if(arrHex.length < 100)
+    scaleMax = Math.ceil(arrHex.length*5) ; 
+  else
+      scaleMax = Math.ceil(arrHex.length*15) ; 
+  var scaleArr = [];
+
+
+  var t = d3.transition()
+    .duration(500);
+
+  //scaleBetween is modified code from https://stackoverflow.com/questions/5294955/how-to-scale-down-a-range-of-numbers-with-a-known-min-and-max-value
+  Array.prototype.scaleBetween = function(scaledMin, scaledMax) {
+    // var max = Math.max.apply(Math, this);
+    // var min = Math.min.apply(Math, this);
+    var max = 360;
+    var min = 1;
+    
+    return this.map(num => Math.ceil((scaledMax-scaledMin)*(num-min)/(max-min)+scaledMin));
+  }
+  //end of modifiee code
+
+  for(var i = 0; i <= scaleMax; i++){
+    scaleArr.push(i);
+  }
+
+  hexVal.forEach(function(element){
+   var value = 0;
+   var hslVal = d3.hsl(element);
+
+        //TO DO: round hsl Values into bins
+        //TO DO: stop pure black and white from being converted
+        if(hslVal.l > 0.09 && hslVal.s > 0.09 && hslVal.l < 0.98){
+
+         if(hslArr.get(hslVal.h) != null){
+          hslArr.set(hslVal.h, hslArr.get(hslVal.h) + 1);
+        }else{
+          hslArr.set(hslVal.h, 1);
+        }
+      }
+
+
+    });
+
+  var tempMap = hslArr;
+  var  xKeys = Array.from( tempMap.keys() );
+  var xVals = xKeys.scaleBetween(scaleMin,(scaleMax));
+  console.log(tempMap);
+
+  var colorCountArr = []
+  //turn tempMap to an array for later use
+  tempMap.forEach(function(element, key){
+   colorCountArr.push({color:key, count:element});
+
+
+ });
+
+
+
+  var counting = 0;
+  var newMap = new Map();
+  hslArr.forEach(function(element){
+    newMap.set(xVals[counting], element);
+    counting++;
+  });
+
+
+
+  var yVals =[];
+  for(var i = scaleMin; i <= scaleMax; i++){
+
+    if(newMap.get(i) != null)
+      yVals.push(newMap.get(i));
+    else
+      yVals.push(0);
+
+  }
+
+  //create most common colors circle
+
+    //sort to get top colors
+    colorCountArr.sort(function(x, y){
+     return d3.descending(x.count, y.count);
+   })
+
+    //display most used hues
+    console.log("sorted");
+
+    console.log(colorCountArr);
+    var circRadius = 50;
+
+    // var rscale = d3.scaleLinear()
+    // .domain([0, d3.max(colorCountArr, function(d) { return d.count; })])
+    // .range([3,10]);
+
+
+    var topFive = colorCountArr.slice(0, 5);
+    console.log(topFive);
+
+
+    // for(var i = 0; i<5; i++){
+      var format = d3.format(".1f")
+
+
+      var svg = d3.select(svgID);
+
+
+      //join
+      var text = svg.selectAll("text")
+        .data(topFive, function(d) { return d; });
+
+      var circle = svg.selectAll("circle")
+        .data(topFive);
+
+        //exit
+      text.exit()
+
+      .remove();
+
+
+      circle.exit().remove();
+
+      
+
+
+
+      //enter
+      text.enter().append("text")
+      .attr("x", function(element, i){return 140 + (i * 150) - (circRadius);})
+      .attr("y", 120 + (circRadius))
+      .text(function(element){
+        return  "hsl(" + format((element.color)) + ", 100%, 50%)";
+      })
+      .transition(t)
+      .attr("font-family", "Roboto Slab")
+      .attr("font-size", "14px")
+      .style("fill-opacity", 1)
+      .style('fill', 'white');
+
+
+       circle
+      .enter()
+      .append("circle")
+      .merge(circle)
+      .attr("cx", function(element, i){i++; return 10 + (i * 150);})
+      .attr("cy", 100 )
+      .attr("r", 50)
+      .transition(t)
+      .style("fill",
+        function(element){
+          return  "hsl(" + format((element.color)) + ", 100%, 50%)";
+      });
+
+
+      
+    // }
+
+  //create distribution chart
+  d3.select('#' + divID + ' svg').remove();
+
+  var r = Raphael(divID);
+  var chart = r.linechart(
+    0, 0,      // top left anchor
+    (widthSVG -20), 200,    // bottom right anchor
+    scaleArr,      //x values
+    yVals, // y-values
+    {
+       nostroke: true,   // lines between points are drawn
+       axis: "",   // draw axes on the left and bottom
+       symbol: "",    // use a filled circle as the point symbol
+       smooth: true,      // curve the lines to smooth turns on the chart
+       dash: "",         // draw the lines dashed
+       shade: "true"
+     });
+
+  var s = "0.75,";
+  var l = "0.5";
+  chart.shades[0].attr({'fill': "0-hsl(0deg," + s + l + ")-hsl(30deg," + s + l + ")-hsl(60deg," + s + l + ")-hsl(90deg," + s + l + ")-hsl(120deg," + s + l + ")-hsl(150deg," + s + l + ")-hsl(180deg," + s + l + ")-hsl(210deg," + s + l + ")-hsl(240deg," + s + l + ")-hsl(270deg," + s + l + ")-hsl(300deg," + s + l + ")-hsl(330deg," + s + l + ")", 'stroke': ''});
+  $('#' + divID + ' svg').height(190).width((widthSVG));
+}//end of if to check empty
+}//end of make historgram
+
+//filtering
+
+//filters data by including only values listed in filterArr; returns only relevant hex
+function filterByValHex(data, filterArr){
+  var newData =[];
+  for(var i = 0; i < data.length; i++){
+    if(filterArr.includes(data[i].Category)){
+
+      newData.push(data[i]);
+
+    }
+
+  }
+
+  var hexVals = getHexAgg(newData);
+  return hexVals;
+}
+function filterByValData(data, filterArr){
+  var newData =[];
+  for(var i = 0; i < data.length; i++){
+    if(filterArr.includes(data[i].Category)){
+
+      newData.push(data[i]);
+
+    }
+
+  }
+
+  return newData;
+}
+
+function filterBySite(data, site){
+  var newData =[];
+  site = site.toUpperCase();
+  for(var i = 0; i < data.length; i++){
+    if(site.includes((data[i].Website.toUpperCase()))){
+      newData.push(data[i]);
+
+    }
+
+  }
+
+  return newData;
+}
+
+
+
+function fillCategories(categoriesArr){
+  var divToPrint = document.getElementById('category_form');
+  var count = 0;
+  categoriesArr.forEach(function(element){
+    var str = "<p><input class=\'checkboxed\' title=\"" + element + "\"checked=\"checked\" type=\"checkbox\" id=\"cat" + count +"\" /><label for=\"cat" + count +"\"> " +element + "</label></p>";
+    divToPrint.innerHTML += str;
+    count++;
+  });
+  
+}
+
+
+
+//declare variables
+var colorData;
+var checked = [];
+
+//grab data from csv file
+function checkAll() {
+    d3.selectAll('input.checkboxed').property('checked', true);
+    checked = categoriesAll;
+   
+    var hexVals = filterByValHex(colorData, checked);
+    var newData = filterByValData(colorData, checked);
+    makeHistogram(hexVals, "distribution", ".mostUsed", 980);
+}
+function uncheckAll() {
+    d3.selectAll('input.checkboxed').property('checked', false);
+    checked = [];
+   
+    d3.selectAll("svg > *").remove();
+}
+var categoriesAll =[];
+d3.csv("Scrape/colors_all.csv", function(error, data){
+
+  if (error) { console.log(error); }
+  colorData = data;   
+
+   categoriesAll = d3.map(colorData, function(d){return d.Category;}).keys();
+//TODO get all checked boxes and load into checked array
+
+  //performed on page load and not done again
+  fillCategories(categoriesAll);
+
+  checked = categoriesAll;
+  var hexVals = filterByValHex(colorData, checked);
+  var newData = filterByValData(colorData, checked);
+  makeHistogram(hexVals, "distribution", ".mostUsed", 980);
+
+});
+
+function listSites(){
+  var data = filterByValData(colorData, checked);
+  //get unique object names (website names)
+  //code modified from https://stackoverflow.com/questions/15125920/how-to-get-distinct-values-from-an-array-of-objects-in-javascript
+  var flags = [], output = [], l = data.length, i;
+  for( i=0; i<l; i++) {
+    if( flags[data[i].Website]) continue;
+    flags[data[i].Website] = true;
+    output.push(data[i].Website);
+  }
+  var divToPrint = document.getElementById('sites');
+  var count = 1;
+  divToPrint.innerHTML = "<h4>Websites Surveyed</h4><p>Click for more details!</p>";
+  output.forEach(function(element){
+    var str = "<div class='web_name'><a class=\"waves-effect waves-green btn \" attr=\"#modal"+count+"\"><p>"+element+"</p></a></div>";
+  
+    divToPrint.innerHTML += str;
+    count++;
+  });
+
+}
+
+$(document).on('click', '.checkboxed', function(element){
+  
+   // element.preventDefault();
+    if($(this).is(':checked')){
+      checked.push(this.title);
+    }
+    if(!$(this).is(':checked')){
+      var i = checked.indexOf(this.title);
+      if(i != -1) {
+        checked.splice(i, 1);
+      }
+    }
+   
+    var hexVals = filterByValHex(colorData, checked);
+    listSites();
+    makeHistogram(hexVals, "distribution", ".mostUsed", 980);
+    $("#sites").show(500);
+
+  });
+
+
+
+  $(document).on('click', '.web_name', function(element){
+    var div = this.children[0].hash;
+    var website = this.children[0].innerText;
+    var newdata = filterBySite(colorData, website);
+    console.log(newdata);
+    var modalHex =filterByValHex(newdata, checked);
+    $("#site_detail").show(500);
+    var addTitle = document.getElementById('right_detail');
+    addTitle.innerHTML = "<h4>Color Details for <a target=\"_blank\" href=\"http://"+ newdata[0].URL +"\">"+website+"</a></h4>";
+    makeHistogram(modalHex, "chartDiv", ".hueClass", 400);
+    return false;
+    
+    });
+    
+
+
+  
+
+
+
+  $(document).on('click', '#checkAll', function(element){
+      checkAll();
+      $("#site_detail").hide(500);
+  });
+
+  $(document).on('click', '#uncheckAll', function(element){
+      uncheckAll();
+      $("#site_detail").hide(500);
+      $("#sites").hide(500);
+  });
+});
+
+</script> 
+</body>
+</html>
+
+

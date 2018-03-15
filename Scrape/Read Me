@@ -1,0 +1,22 @@
+Read Me
+
+
+
+Notes: 
+a) be sure to have Selenium, Python, and Beautiful Soup installed
+b) Have the chromedriver executable file (downloaded from online) in the folder where the python files are being stored and change the chromedriver variable path in addresses.py to the path of your chromedriver.exe file
+
+-----------------------
+How to use Data scrapper
+-----------------------
+
+1. Add websites to the rawsites.csv file; website must NOT include protocol (e.g. https://), but it can include the "www."
+
+2. Run addresses.py
+This is a bit annoying at it opens and closes webpages
+
+3. Run scrape3.py
+
+4. Finished! The scraped data is in colors.csv
+
+Sorry if it's convoluted!!!!

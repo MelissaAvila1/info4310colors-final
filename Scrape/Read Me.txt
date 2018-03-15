@@ -1,0 +1,50 @@
+---------------------------------------------------------
+-------------------------Read Me-------------------------
+----------------~How to use Data scrapper~---------------
+---------------------------------------------------------
+
+
+Notes: 
+- be sure to install the chromedriver into the Scrape folder!
+- Interrupting the scripts while they are running will not update/change the csv files; calls to the csv are made at the end of the scripts
+
+---------------------------------------------------------
+
+How to Run Scripts and Scrape Both Websites
+
+1. Add websites you want to scrape to the rawsites.csv file; website must NOT include protocol (e.g. https://), but it must include the "www."
+
+-------------------------
+Scraping webcolourdata.com
+-------------------------
+
+
+2. Run addresses.py
+This is a bit annoying at it opens and closes webpages
+
+3. site.csv will be created/updated from addresses.py, don't touch it as the next step will utilize it
+
+4. Run scrape_wcd.py
+
+5. Finished! The scraped data is in colors_wcd.csv
+
+-------------------------
+Scraping webcolourdata.com
+-------------------------
+
+
+6. Run scrape_stylify.py
+
+7. Finished! The scraped data is in colors_stylify.csv
+
+
+
+---------------------------------------------------------
+
+Issues:
+
+1. www MUST be included in rawsites.csv in order for the scrape_stylify.py to work properly; moreover, if an address has multiple "." In it's name, it may screw up in the website name column; I didn't do extensive enough address checking to fix this
+
+2. Websites with weird ASCII characters in the name (i.e. Chinese sites) will not have the website name category properly print for 
+
+
